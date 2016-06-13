@@ -2,6 +2,11 @@
 function Transportation(){
 };
 
+/**
+Method that will take in a positive number corresponding to the fare of the mode of transportation and
+a string that will append the type of error message being thrown in the even of a failure. If a valid fare is entered
+the fare will be return after being rounded to 2 decimal places
+**/
 Transportation.prototype.validFare = function(fare,errorPrefix)
 {
 	if(typeof fare !== "undefined")
@@ -32,6 +37,9 @@ Transportation.prototype.validFare = function(fare,errorPrefix)
 	}
 };
 
+/**
+Method will set the prepaidFare property for the transportation object
+**/
 Transportation.prototype.setPrepaidFare = function(fare)
 {
 	try
@@ -48,6 +56,9 @@ Transportation.prototype.setPrepaidFare = function(fare)
 	}
 };
 
+/**
+Method will set the monthlyFare property for the transportation object
+**/
 Transportation.prototype.setMonthlyFare = function(fare)
 {
 	try
@@ -64,6 +75,10 @@ Transportation.prototype.setMonthlyFare = function(fare)
 	}
 };
 
+/**
+Method takes in a number corresponding to a particular fare property and string that will append to the error message
+if thrown. The method returns the fare property if no error is thrown
+**/
 Transportation.prototype.getFare = function(fareTypeProperty,errorPrefix)
 {
 
@@ -81,6 +96,9 @@ Transportation.prototype.getFare = function(fareTypeProperty,errorPrefix)
 	}
 };
 
+/**
+Method returns the prepaidFare property for the given transportation object
+**/
 Transportation.prototype.getPrepaidFare = function()
 {
 	try
@@ -97,6 +115,9 @@ Transportation.prototype.getPrepaidFare = function()
 	}
 };
 
+/**
+Method returns the monthlyFare property for the given transportation object
+**/
 Transportation.prototype.getMonthlyFare = function()
 {
 	try
