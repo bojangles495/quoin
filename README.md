@@ -1,6 +1,6 @@
 <p>This was my approach for the Coding Challege of desiging a system for users to purchase passes for different transit systems.</p>
 <p>
-	<h3>Viewing my work:</h3>
+	<h3>Viewing my work dowload project:</h3>
 	<ul>
 		<li>
 			To run the Tests double click:

@@ -266,7 +266,7 @@ describe("Discount",function(){
 	it("Discount GetWeekendDiscount should return the discount proprety that was set, accounting for various rounding", function()
 	{
 		var discountToBeRoundedDown = .244;
-		var discountToBeRoundedUp = .105;
+		var discountToBeRoundedUp = .109;
 		var fareWithSingleDigit = 1;
 		var fareWithTwoDigits = 1.00;
 
@@ -274,7 +274,7 @@ describe("Discount",function(){
 		expect(discount.getWeekendDiscount()).toEqual(0.24);
 
 		discount.setWeekendDiscount(discountToBeRoundedUp);
-		expect(discount.getWeekendDiscount()).toEqual(.1);//toFixed is used and will round .105 down to .1 instead of .11
+		expect(discount.getWeekendDiscount()).toEqual(.11);
 
 		discount.setWeekendDiscount(fareWithSingleDigit);
 		expect(discount.getWeekendDiscount()).toEqual(fareWithSingleDigit);
