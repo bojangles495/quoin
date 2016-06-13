@@ -1,10 +1,13 @@
-This was my approach for the Coding Challege of desiging a system for users to purchase passes for different transit systems.
+<p>This was my approach for the Coding Challege of desiging a system for users to purchase passes for different transit systems.</p>
 
-Problem Specifications:
-	There would be 3 modes of Transportation - Buses, Subways, Commuter Rails
-	There would be 2 types of Passes - Prepaid and Monthly
-	There would be discounts on passes - Elderly, Student, Transportation Worker, Weekends
-
+<p>
+	<h3>Problem Specifications:</h3>
+	<ul>
+		<li>There would be 3 modes of Transportation - Buses, Subways, Commuter Rails</li>
+		<li>There would be 2 types of Passes - Prepaid and Monthly</li>
+		<li>There would be discounts on passes - Elderly, Student, Transportation Worker, Weekends</li>
+	</ul>
+</p>
 Application Requirements:
 	Code should be flexible if changes are to arise
 	Users are to be able to buy passes
