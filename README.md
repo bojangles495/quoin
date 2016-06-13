@@ -23,6 +23,15 @@
 	</ul>
 </p>
 <p>
+	<h3>Explanation of Completed Work:</h3>
+	<ul>
+		<li>Based on the statement of not to worry about UI and entry points to the application I decided to focus on the actual compenets that would build up the application once the UI and entry points would be designed.</li>
+		<li>I wanted to make sure that all of the base compenents would be thorough, tested, and complete so when time came to start piecing everything together for the later sprints that the foundation of the application would be solid.</li>
+		<li>My vision of the solution would be that the later sprints would have a focus on design and functionility and not have to worry that the compenents being used would not be robust on flexible for any sort of changes that needed to be made.</li>
+		<li>Most of the testing of the application would be done in Sprint 1.</li>
+	</ul>
+</p>
+<p>
 	<h3>Problem Specifications:</h3>
 	<ul>
 		<li>There would be 3 modes of Transportation - Buses, Subways, Commuter Rails</li>
@@ -102,6 +111,8 @@
 			<ul>
 				<li>Ability to apply discounts</li>
 				<li>Create a new prepaid or monthly pass depending on input information</li>
+				<li>Getting the balance of a prepaid pass</li>
+				<li>Updating the pass once the fare has been generated</li>
 			</ul>
 		</li>
 		<li>Thorough testing of javascript code ensuring that all methods have all edge cases tested</li>
@@ -166,7 +177,6 @@
 	<h3>Questions that would need clarification:</h3>
 	<ul>
 		<li>What would the fare prices be?</li>
-		<li>What would the fare prices be?</li>
 		<li>Would would the mechanism be to verify if someone was a student, elderly, or a transportation worker?</li>
 		<li>How will replacement passes be issued?</li>
 		<li>Will there be a difference for monthly passes depending on the length of the month?</li>
@@ -180,12 +190,4 @@
 		<li>Will users be able to have multiple discounts ie. elderly students?</li>
 	</ul>
 </p>
-<p>
-	<h3>Explanation of Completed Work:</h3>
-	<ul>
-		<li>Based on the statement of not to worry about UI and entry points to the application I decided to focus on the actual compenets that would build up the application once the UI and entry points would be designed.</li>
-		<li>I wanted to make sure that all of the base compenents would be thorough, tested, and complete so when time came to start piecing everything together for the later sprints that the foundation of the application would be solid.</li>
-		<li>My vision of the solution would be that the later sprints would have a focus on design and functionility and not have to worry that the compenents being used would not be robust on flexible for any sort of changes that needed to be made.</li>
-		<li>Most of the testing of the application would be done in Sprint 1.</li>
-	</ul>
-</p> 
+ 
