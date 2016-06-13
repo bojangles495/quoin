@@ -38,6 +38,10 @@ Discount.prototype.validDiscount = function(discount,errorPrefix)
 	}
 };
 
+/*
+Abstract method to handle getting a particular discount that has been input and appending 
+the property name to the error message for more concise error reporting
+*/
 Discount.prototype.getDiscount = function(discountProperty,errorPrefix)
 {
 	if(typeof discountProperty === "undefined")
@@ -54,6 +58,9 @@ Discount.prototype.getDiscount = function(discountProperty,errorPrefix)
 	}
 };
 
+/**
+Method sets the transportationWorkerDiscount property with a specific numeric positive value and less than or equal to 1
+**/
 Discount.prototype.setTransportWorkerDiscount = function(discount)
 {
 	try
@@ -70,6 +77,9 @@ Discount.prototype.setTransportWorkerDiscount = function(discount)
 	}
 };
 
+/**
+Method that will get the transportWokerDiscount property
+**/
 Discount.prototype.getTransportWorkerDiscount = function()
 {
 	try
@@ -86,6 +96,9 @@ Discount.prototype.getTransportWorkerDiscount = function()
 	}
 };
 
+/**
+Method sets the studentAndElderlyDiscount property with a specific numeric positive value and less than or equal to 1
+**/
 Discount.prototype.setStudentAndElderlyDiscount = function(discount)
 {
 	try
@@ -102,6 +115,9 @@ Discount.prototype.setStudentAndElderlyDiscount = function(discount)
 	}
 };
 
+/**
+Method that will get the studentAndElderlyDiscount property
+**/
 Discount.prototype.getStudentAndElderlyDiscount = function()
 {
 	try
@@ -118,6 +134,9 @@ Discount.prototype.getStudentAndElderlyDiscount = function()
 	}
 };
 
+/**
+Method sets the weekendDiscount property with a specific numeric positive value and less than or equal to 1
+**/
 Discount.prototype.setWeekendDiscount = function(discount)
 {
 	try
@@ -134,6 +153,9 @@ Discount.prototype.setWeekendDiscount = function(discount)
 	}
 };
 
+/**
+Method that will get the weekendDiscount property
+**/
 Discount.prototype.getWeekendDiscount = function()
 {
 	try
