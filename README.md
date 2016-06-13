@@ -140,29 +140,30 @@
 		<li>Quality Assurance Testing</li>
 	</ul>
 </p>
-
-
-Questions that would need clarification:
-
-What would the fare prices be?
-Would would the mechanism be to verify if someone was a student, elderly, or a transportation worker?
-How will replacement passes be issued?
-Will there be a difference for monthly passes depending on the length of the month?
-How would users go about purchasing passes?
-Would users purchase them at the transportation facility?
-Would users have to create accounts to create persistent data about themselves and therefore facilitate buying passes on line?
-It seems an admin area would need to be created to modify discounts and fares for various transportation methods
-How would monthly passes be handled if discounts are modified within a given month prior to the pass expiring?
-How will persistent data be stored?
-What will the user interface consist of?
-Will users be able to have multiple discounts ie. elderly students?
-
-Explanation of Completed Work:
-	Based on the statement of not to worry about UI and entry points to the application I decided to focus on the actual compenets that would build up the application once the UI and entry points would be designed.
-	I wanted to make sure that all of the base compenents would be thorough, tested, and complete so when time came to start piecing everything together for the later sprints that the foundation of the application would be solid.
-	My vision of the solution would be that the later sprints would be focuses on design and functionility and have to worry that the compenents being used would not be robust on flexible to any sort of changes that needed to be made.
-	Most of the testing of the application would be done in Sprint 1.
-
-
-
- 
+<p>
+	<h3>Questions that would need clarification:</h3>
+	<ul>
+		<li>What would the fare prices be?</li>
+		<li>What would the fare prices be?</li>
+		<li>Would would the mechanism be to verify if someone was a student, elderly, or a transportation worker?</li>
+		<li>How will replacement passes be issued?</li>
+		<li>Will there be a difference for monthly passes depending on the length of the month?</li>
+		<li>How would users go about purchasing passes?</li>
+		<li>Would users purchase them at the transportation facility?</li>
+		<li>Would users have to create accounts to create persistent data about themselves and therefore facilitate buying passes on line?</li>
+		<li>It seems an admin area would need to be created to modify discounts and fares for various transportation methods</li>
+		<li>How would monthly passes be handled if discounts are modified within a given month prior to the pass expiring?</li>
+		<li>How will persistent data be stored?</li>
+		<li>What will the user interface consist of?</li>
+		<li>Will users be able to have multiple discounts ie. elderly students?</li>
+	</ul>
+</p>
+<p>
+	<h3>Explanation of Completed Work:</h3>
+	<ul>
+		<li>Based on the statement of not to worry about UI and entry points to the application I decided to focus on the actual compenets that would build up the application once the UI and entry points would be designed.</li>
+		<li>I wanted to make sure that all of the base compenents would be thorough, tested, and complete so when time came to start piecing everything together for the later sprints that the foundation of the application would be solid.</li>
+		<li>My vision of the solution would be that the later sprints would be focuses on design and functionility and have to worry that the compenents being used would not be robust on flexible to any sort of changes that needed to be made.</li>
+		<li>Most of the testing of the application would be done in Sprint 1.</li>
+	</ul>
+</p> 
