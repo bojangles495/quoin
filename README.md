@@ -8,17 +8,30 @@
 		<li>There would be discounts on passes - Elderly, Student, Transportation Worker, Weekends</li>
 	</ul>
 </p>
-Application Requirements:
-	Code should be flexible if changes are to arise
-	Users are to be able to buy passes
-		users would be able to specify the type of transportation and type of pass
-		for prepaid passes, a user could load a certain amount of money onto the pass
-		for monthly passes, discounts would be applied that would determine the over all cost of the pass
-	Users could use their pass
-		specifying which type of transportation,
-		if a prepaid card was used apply discounts to the transportation fare and deduct amount from the appropriate pass
-		if a monthly pass was used validate the pass was appropriate for the mode of transportation and not expired
-	Users should be able to check the balance on a given card
+<p>
+	<h3>Application Requirements:</h3>
+	<ul>
+		<li>Code should be flexible if changes are to arise</li>
+		<li>
+			Users are to be able to buy passes
+			<ul>
+				<li>users would be able to specify the type of transportation and type of pass</li>
+				<li>for prepaid passes, a user could load a certain amount of money onto the pass</li>
+				<li>for monthly passes, discounts would be applied that would determine the over all cost of the pass</li>
+			</ul>
+		</li>
+		<li>
+			Users could use their pass
+			<ul>
+				<li>specifying which type of transportation</li>
+				<li>if a prepaid card was used apply discounts to the transportation fare and deduct amount from the appropriate pass</li>
+				<li>if a monthly pass was used validate the pass was appropriate for the mode of transportation and not expired</li>
+			</ul>
+		</li>
+		<li>Users should be able to check the balance on a given card</li>
+	</ul>
+</p>
+
 
 Things I had to work from:
 The client was told that this application was to be broken into 3 sprints
