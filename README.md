@@ -1,5 +1,27 @@
 <p>This was my approach for the Coding Challege of desiging a system for users to purchase passes for different transit systems.</p>
-
+<p>
+	<h3>Viewing my work:</h3>
+	<ul>
+		<li>
+			To run the Tests double click:
+			<ul>
+				<li>jasmine/SpecRunner.html</li>
+			</ul>
+		</li>
+		<li>
+			To view source code:
+			<ul>
+				<li>jasmine/src/</li>
+			</ul>
+		</li>
+		<li>
+			To view test code:
+			<ul>
+				<li>jasmine/spec/</li>
+			</ul>
+		</li>
+	</ul>
+</p>
 <p>
 	<h3>Problem Specifications:</h3>
 	<ul>
@@ -163,7 +185,7 @@
 	<ul>
 		<li>Based on the statement of not to worry about UI and entry points to the application I decided to focus on the actual compenets that would build up the application once the UI and entry points would be designed.</li>
 		<li>I wanted to make sure that all of the base compenents would be thorough, tested, and complete so when time came to start piecing everything together for the later sprints that the foundation of the application would be solid.</li>
-		<li>My vision of the solution would be that the later sprints would be focuses on design and functionility and have to worry that the compenents being used would not be robust on flexible to any sort of changes that needed to be made.</li>
+		<li>My vision of the solution would be that the later sprints would have a focus on design and functionility and not have to worry that the compenents being used would not be robust on flexible for any sort of changes that needed to be made.</li>
 		<li>Most of the testing of the application would be done in Sprint 1.</li>
 	</ul>
 </p> 
