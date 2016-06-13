@@ -31,62 +31,115 @@
 		<li>Users should be able to check the balance on a given card</li>
 	</ul>
 </p>
-
-
-Things I had to work from:
-The client was told that this application was to be broken into 3 sprints
-I was to determine which specifications will be built in which sprint
-My solution must meet requirements for sprint 1
-This must be completed quickly
-Code must be flexible to allow for quick changes
-Testing had to be used
-Code must be solid
-This challenge was to test my proficiency with javascript
-UI was not a factor
-No data stores were needed for the solution
-No user credentials needed for the project
-Quoin is a mostly TDD shop and therefore I made the assumption that an emphasis should be made on spending quite a bit of time on making sure code was tested thoroughly
-
-Sprint 1:
-	Designing all of the compentents used to generate a user
-		set a user types: elderly, student, transportation worker
-		get a users types: elderly, student, transportation worker
-		check if a user has a given pass based on defined transportation type and type of pass
-		get a particular pass from the list of passes that a user has
-		assign a newly created pass to the list of passes the user has
-	Designing the components for the transportation types
-		set the prepaid and monthly fare
-		get the prepaid and monthly fare
-	Designing the components for the Discount types
-		set discounts for elderly, student, transport worker, weekend
-		get discounts for a given type
-	Desigining the components for Passes
-		Ability to apply discounts
-		Create a new prepaid or monthly pass depending on input information
-	Thorough testing of javascript code ensuring that all methods have all edge cases tested
-Sprint 2:
-	Designing the UI for purchasing pass
-		form input for user to specify if they qualify for discount
-		form input to specify type of pass purchasing
-		form input to specify type of transportation
-	Designing the UI for using the pass
-		form input to specify the type of transport
-	Implement javascript logic for forms to create the pass for the user based on their input information
-		Based on form input use values in the compenents created in Sprint 1
-	Implement javascript logic to validate monthly pass is not expired and valid for type of transport
-		Based on form input use values in the components created in Sprint 1
-	Implement javascript logic to deduct fare+discounts from prepaid pass
-		Based on form input use values in the components created in Sprint 1
-	Thorough testing of javascript code ensuring that all methods have all edge cases tested
-Sprint 3:
-	Design admin UI area 
-		Ability to update discount changes
-		Ability to update fare amounts for different transportation types
-	Design UI area for user pass interactions
-		Ability to view the balance on different prepaid passes
-		Ability to load more money onto prepaid passes
-	Finish any testing
-	Quality Assurance Testing
+<p>
+	<h3>Things I had to work from:</h3>
+	<ul>
+		<li>The client was told that this application was to be broken into 3 sprints</li>
+		<li>I was to determine which specifications will be built in which sprint</li>
+		<li>My solution must meet requirements for sprint 1</li>
+		<li>This must be completed quickly</li>
+		<li>Code must be flexible to allow for quick changes</li>
+		<li>Testing had to be used</li>
+		<li>Code must be solid</li>
+		<li>This challenge was to test my proficiency with javascript</li>
+		<li>UI was not a factor</li>
+		<li>No data stores were needed for the solution</li>
+		<li>No user credentials needed for the project</li>
+		<li>Quoin is a mostly TDD shop and therefore I made the assumption that an emphasis should be made on spending quite a bit of time on making sure code was tested thoroughly</li>
+	</ul>
+</p>
+<p>
+	<h3>Sprint 1:</h3>
+	<ul>
+		<li>
+			Designing all of the compentents used to generate a user
+			<ul>
+				<li>set a user types: elderly, student, transportation worker</li>
+				<li>get a users types: elderly, student, transportation worker</li>
+				<li>check if a user has a given pass based on defined transportation type and type of pass</li>
+				<li>get a particular pass from the list of passes that a user has</li>
+				<li>assign a newly created pass to the list of passes the user has</li>
+			</ul>
+		</li>
+		<li>
+			Designing the components for the transportation types
+			<ul>
+				<li>set the prepaid and monthly fare</li>
+				<li>get the prepaid and monthly fare</li>
+			</ul>
+		</li>
+		<li>
+			Designing the components for the Discount types
+			<ul>
+				<li>set discounts for elderly, student, transport worker, weekend</li>
+				<li>get discounts for a given type</li>
+			</ul>
+		</li>
+		<li>
+			Desigining the components for Passes
+			<ul>
+				<li>Ability to apply discounts</li>
+				<li>Create a new prepaid or monthly pass depending on input information</li>
+			</ul>
+		</li>
+		<li>Thorough testing of javascript code ensuring that all methods have all edge cases tested</li>
+	</ul>
+	<h3>Sprint 2:</h3>
+	<ul>
+		<li>
+			Designing the UI for purchasing pass
+			<ul>
+				<li>form input for user to specify if they qualify for discount</li>
+				<li>form input to specify type of pass purchasing</li>
+				<li>form input to specify type of transportation</li>
+			</ul>
+		</li>
+		<li>
+			Designing the UI for using the pass
+			<ul>
+				<li>form input to specify the type of transport</li>
+			</ul>
+		</li>
+		<li>
+			Implement javascript logic for forms to create the pass for the user based on their input information
+			<ul>
+				<li>Based on form input use values in the compenents created in Sprint 1</li>
+			</ul>
+		</li>
+		<li>
+			Implement javascript logic to validate monthly pass is not expired and valid for type of transport
+			<ul>
+				<li>Based on form input use values in the components created in Sprint 1</li>
+			</ul>
+		</li>
+		<li>
+			Implement javascript logic to deduct fare+discounts from prepaid pass
+			<ul>
+				<li>Based on form input use values in the components created in Sprint 1</li>
+			</ul>
+		</li>
+		<li>Thorough testing of javascript code ensuring that all methods have all edge cases tested</li>
+	</ul>
+	<h3>Sprint 3:</h3>
+	<ul>
+		<li>
+			Design admin UI area
+			<ul>
+				<li>Ability to update discount changes</li>
+				<li>Ability to update fare amounts for different transportation types</li>
+			</ul>
+		</li>
+		<li>
+			Design UI area for user pass interactions
+			<ul>
+				<li>Ability to view the balance on different prepaid passes</li>
+				<li>Ability to load more money onto prepaid passes</li>
+			</ul>
+		</li>
+		<li>Finish any testing</li>
+		<li>Quality Assurance Testing</li>
+	</ul>
+</p>
 
 
 Questions that would need clarification:
