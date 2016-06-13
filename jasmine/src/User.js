@@ -5,13 +5,17 @@ function User(){
 	this._transportWorker = false;
 };
 
-//Set User as a Transportation Worker
+/**
+Method sets the transportWorker property boolean to true
+**/
 User.prototype.assignTransportWorker = function()
 {
 	this._transportWorker = true;
 };
 
-//Get User information about being a Transportation Worker
+/**
+Method will return the transportWorker property boolean
+**/
 User.prototype.getTransportWorkerProperty = function()
 {
 	try
@@ -32,13 +36,17 @@ User.prototype.getTransportWorkerProperty = function()
 	}
 };
 
-//Set User as Student
+/**
+Method sets the student property boolean to true
+**/
 User.prototype.assignStudent = function()
 {
 	this._student = true;
 };
 
-//Get User information about being a Student
+/**
+Method will return the student property boolean
+**/
 User.prototype.getStudentProperty = function()
 {
 	try
@@ -59,13 +67,17 @@ User.prototype.getStudentProperty = function()
 	}
 };
 
-//Set User as Elderly
+/**
+Method sets the elderly property boolean to true
+**/
 User.prototype.assignElderly = function()
 {
 	this._elderly = true;
 };
 
-//Get User information about being Elderly
+/**
+Method will return the elderly property boolean
+**/
 User.prototype.getElderlyProperty = function()
 {
 	try
@@ -86,6 +98,11 @@ User.prototype.getElderlyProperty = function()
 	}
 };
 
+/**
+Method takes in a 2 strings corresponding to the type of pass and the mode of transport and
+determines if the user has the pass within their list of passes and will return true if they have the 
+pass and false if the user does not have the pass
+**/
 User.prototype.checkForPass = function(passType,modeOfTransport)
 {
 	try
@@ -163,6 +180,10 @@ User.prototype.checkForPass = function(passType,modeOfTransport)
 	}
 };
 
+/**
+Method takes in a 2 strings corresponding to the type of pass and the mode of transport and will
+return the pass if the user has it or false if the user does not have the pass
+**/
 User.prototype.getPass = function(passType,modeOfTransport)
 {
 	try
@@ -182,6 +203,9 @@ User.prototype.getPass = function(passType,modeOfTransport)
 	}
 };
 
+/**
+Method takes in a pass object and will add it to the list of passes that the user hass
+**/
 User.prototype.assignPass = function(pass)
 {
 	try
@@ -247,5 +271,7 @@ User.prototype.assignPass = function(pass)
 	{
 		throw err;
 	}
-}
+};
+
+
 
